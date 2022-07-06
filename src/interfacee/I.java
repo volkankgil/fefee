@@ -11,6 +11,6 @@ public interface I {
     /*{
          -abstract sýnýflarda olduðu gibi interface'lerde de metod'un süslü parantezinin içi boþtur.
          -abstract sýnýflarda deðiþken tanýmlayabiliriz. interface'lerde tanýmlayamayýz.sadece construct sýnýfý olmadýðý için deðeri olan
-         deðiþþkenler atayabiliriz özellikle final olanlardýr. final int AA=1214;fefewwvqv5252  e wfeaf
+         deðiþþkenler atayabiliriz özellikle final olanlardýr. final int AA=1214;fefewwvqv5252  e wfeafbbbr sags
     }*/
 }
