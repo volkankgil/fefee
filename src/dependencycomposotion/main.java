@@ -20,7 +20,7 @@ public class main {
         //COMPOSÝTÝON=COURSE HAS A ÝNSTRUCTOR (SINIFIN BÝR ÖÐRETMENÝ VARDIR)
         course lecture =new course("biology","bio123",s1,teacher);
         System.out.println(lecture.getInstructor().getName()); //sýnýfýn bir öðretmeni vardýr. course has instructorfefe
-        System.out.println(lecture.getStudent().getIdno());
+        System.out.println(lecture.getStudent().getIdno());//fefefeve
 
         student [] stu ={s1,s2,s3};
         int number =stu.length;
