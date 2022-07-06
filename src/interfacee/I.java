@@ -7,7 +7,7 @@ public interface I {
     public boolean connect(String ipAddress);
 
     public boolean payment(String userPassword, double price, String cardNumber, String expireDate, String cvc);
-
+    //ublic boolean payment(String userPassword, double price, Strin
     /*{
          -abstract sýnýflarda olduðu gibi interface'lerde de metod'un süslü parantezinin içi boþtur.
          -abstract sýnýflarda deðiþken tanýmlayabiliriz. interface'lerde tanýmlayamayýz.sadece construct sýnýfý olmadýðý için deðeri olan
