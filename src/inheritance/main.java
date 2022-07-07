@@ -1,5 +1,7 @@
 package inheritance;
 
+import interfacee.Abankasý;
+
 import java.util.Arrays;
 
 public class main {

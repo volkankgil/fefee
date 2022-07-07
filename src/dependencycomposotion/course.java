@@ -2,6 +2,9 @@ package dependencycomposotion;
 
 public class course {
 
+    //import encapsulation.*   encapsulation package'ýnda ki bütün sýnýflarý course sýnýfýnda import etmiþ oluyoruz.
+    //import encasulation dataclass yazar isek sadece bu paketteki dataclass sýnýfýný import etmiþ oluyoruz.
+
     private String courseName;
     private String courseCode;
 
