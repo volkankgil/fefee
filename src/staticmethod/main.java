@@ -24,5 +24,6 @@ public class main {
         System.out.println(player.remainingtime);
 
         System.out.println(player.injury()); // player sýnýfýnda yazdýðýmýz static bir metodu burada çaðýrabiliriz.
+
     }
 }
