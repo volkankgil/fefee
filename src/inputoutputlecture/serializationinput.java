@@ -13,7 +13,7 @@ public class serializationinput {
 
         ObjectInputStream inputStream = new ObjectInputStream(inputfile);
 
-            car newcar = (car) inputStream.readObject();
+            carserialization newcar = (carserialization) inputStream.readObject();
             System.out.println(newcar.getBrand());
             System.out.println(newcar.getModel());
             inputfile.close();

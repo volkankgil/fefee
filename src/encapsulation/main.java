@@ -5,7 +5,7 @@ public class main {
 
         dataclass car=new dataclass("Audi","a3",-432);
 
-        // car.price=-5000; Sýnýfda deðiþkeni private yaparak baþka bir sýnýftan eriþimini kapattým.
+        // carserialization.price=-5000; Sýnýfda deðiþkeni private yaparak baþka bir sýnýftan eriþimini kapattým.
 
         car.printPrice();
 

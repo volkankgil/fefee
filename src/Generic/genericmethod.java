@@ -24,7 +24,7 @@ public class genericmethod {
         Integer b[] = {10, 20, 30, 40};
         Character c[] = {'j', 'a', 'v', 'a'};
 
-        //printarry(a);
+        //printarry(aseralizationiçingerekli);
         System.out.println("***********");
         //printarry(b);
         printarry(a,b);

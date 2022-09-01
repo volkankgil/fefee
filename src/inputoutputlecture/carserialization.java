@@ -1,13 +1,12 @@
 package inputoutputlecture;
 
-import javax.print.DocFlavor;
 import java.io.Serializable;  //serialization ý import etmek zorundayýz.
 
-public class car implements Serializable{
+public class carserialization implements Serializable{
 
     private String brand;
     private String model;
-public car(String brand,String model){
+public carserialization(String brand, String model){
     this.brand=brand;
     this.model=model;
 }

@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 public class serializationoutput {
     public static void main(String[] args) {
 
-        car c1 = new car("Mercedes", "a180");
+        carserialization c1 = new carserialization("Mercedes", "a180");
         try {
             FileOutputStream out = new FileOutputStream("src/inputoutputlecture/volkan.txt");
             ObjectOutputStream output = new ObjectOutputStream(out);

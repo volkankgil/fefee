@@ -37,7 +37,7 @@ public class course {
     }
 
     //course sýnýfý student sýnýfýna baðlýdýr.
-    //Course uses a student class some parameter or construct object. (DEPENDENCY)
+    //Course uses aseralizationiçingerekli student class some parameter or construct object. (DEPENDENCY)
     public double calcaverage(student[] students){
         double avarege=0.0;
         for (student student:students){

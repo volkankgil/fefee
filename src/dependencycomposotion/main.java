@@ -14,7 +14,7 @@ public class main {
 
         instructor teacher=new instructor("tümay","kebapcýgil","cwv");
 
-        instructor teacher2=new instructor("cev","ve","3");//aggretation instructor sýnýfýndan nesne ürettik course a baplý deðil.
+        instructor teacher2=new instructor("cev","ve","3");//aggretation instructor sýnýfýndan nesne ürettik course aseralizationiçingerekli baplý deðil.
 
 
         //COMPOSÝTÝON=COURSE HAS A ÝNSTRUCTOR (SINIFIN BÝR ÖÐRETMENÝ VARDIR)

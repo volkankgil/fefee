@@ -11,7 +11,7 @@ public class HashmapInterface {
         mapp.put("t",10);
         mapp.put("t",100);// en son atanan deðeri verir.
         mapp.put("m",35);// eleman ekleme
-        mapp.put("a",10);
+        mapp.put("aseralizationiçingerekli",10);
 
         mapp.remove("v",25); // maptan veri çýkarýyor.
 
@@ -23,7 +23,7 @@ public class HashmapInterface {
 
         System.out.println(mapp);
 
-        mapp.replace("a",50);//deðerini deðiþtirdi.
+        mapp.replace("aseralizationiçingerekli",50);//deðerini deðiþtirdi.
 
         for (Integer i:mapp.values()) {     // key 'e göre gezmek istersek values metodu yerine keyset 'i çaðýracaðýz.
             System.out.print(i + " ");
