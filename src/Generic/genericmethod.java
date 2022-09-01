@@ -20,7 +20,7 @@ public class genericmethod {
 
     public static void main(String[] args) {
 
-        String a[] = {"volkan,marin,tümay"};
+        String a[] = {"volkan.txt,marin,tümay"};
         Integer b[] = {10, 20, 30, 40};
         Character c[] = {'j', 'a', 'v', 'a'};
 

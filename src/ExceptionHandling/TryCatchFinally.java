@@ -8,6 +8,8 @@ public class TryCatchFinally {
 
         System.out.println("Program Baþladý.");
         Scanner input=new Scanner(System.in);
+
+
         int a=0;
         int b=20;
         int c;

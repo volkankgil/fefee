@@ -1,4 +1,4 @@
-package Generic;
+package Generic.GenericInterface;
 
 import Generic.GenericInterface.Idatabase;
 

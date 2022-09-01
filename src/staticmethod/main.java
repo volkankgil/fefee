@@ -7,7 +7,7 @@ public class main {
 
         System.out.println(player.remainingtime);// veri tipini static yazdýðýmýzda direk sýnýf üzerinden çaðýrabiliriz. nesne üretmeye gerek yok.
 
-        player p1=new player("volkan",35);
+        player p1=new player("volkan.txt",35);
 
         System.out.println(p1.getName());
 

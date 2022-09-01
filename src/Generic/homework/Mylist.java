@@ -21,6 +21,17 @@ public class Mylist<T> {
         this.array = (T[]) new Object[this.capacity];
     }
 
+    //dizinin kapasite deðerini döndürür
+    public int getCapacity() {
+        return capacity;
+    }
+
+    //kapasite deðerini deðiþtiren metod
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+        array = (T[]) new Object[this.capacity];
+    }
+
     //dizinin eleman sayýsýný verir
     public int size() {
         int sizee = 0;
@@ -41,17 +52,6 @@ public class Mylist<T> {
             this.array = Arrays.copyOf(this.temparray, getCapacity());
         }
         this.array[size()] = object;
-    }
-
-    //dizinin kapasite deðerini döndürür
-    public int getCapacity() {
-        return capacity;
-    }
-
-    //kapasite deðerini deðiþtiren metod
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-        array = (T[]) new Object[this.capacity];
     }
 
     // dizinin indexteki deðerini döndürür

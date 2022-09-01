@@ -3,7 +3,7 @@ package dependencycomposotion;
 public class main {
     public static void main(String[] args) {
 
-        student s1=new student("volkan","kebapcıgil",124,"vevsv",85);
+        student s1=new student("volkan.txt","kebapcıgil",124,"vevsv",85);
         s1.getAdreess();
 
         student s2=new student("Marin","Kebapcıgil",241,"vwkvwkv",85);

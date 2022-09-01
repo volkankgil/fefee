@@ -11,6 +11,7 @@ public class collectionandmapinterface {
         hash.add(10);
         hash.add(30); // hashset'ler veriyi yazdýðýmýz sýrada tutmayabilirler.
         hash.add(20);
+        hash.add(20);
         hash.add(null);
 
         System.out.println(hash.isEmpty()); // hash set dolu boþ mu olduðunu boolean veriyor.

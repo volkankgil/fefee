@@ -1,7 +1,5 @@
 package Generic.GenericInterface;
 
-import Generic.student;
-
 public class test <t1,t2,t3> { //3 tane genericmethod sýnýf alabileceðini belirtiyor.
 
     private t1 obj1;

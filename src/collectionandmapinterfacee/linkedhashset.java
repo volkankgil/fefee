@@ -15,10 +15,11 @@ public class linkedhashset {
         lset.add(40);
 
         Iterator itr = lset.iterator();
-        {
+
             while (itr.hasNext()) {
-                System.out.println(itr.next());
+                System.out.println(itr.next());//ayný olan deðerleri ekrana bastýrmýyor.
             }
-        }
+        System.out.println(lset.size());
+        System.out.println(lset.size());
     }
 }

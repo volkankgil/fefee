@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class main {
     public static void main(String[] args) {
 
-        calýsan c1 = new calýsan("volkan", "3144", "volkankgil@gmail.com");
+        calýsan c1 = new calýsan("volkan.txt", "3144", "volkankgil@gmail.com");
         c1.giris();
 
         //akademisyen a1=new akademisyen("tümay","41445","tumaykgil@gmail.com","rehberlik","doc");
@@ -22,7 +22,7 @@ public class main {
         o1.giris("12:00","15:00");//methodlarda overloading
         System.out.println(o1.getKapino());
         o1.giris();
-        System.out.println(o1.derseGir("prof volkan"));
+        System.out.println(o1.derseGir("prof volkan.txt"));
 
         System.out.println("************");
 

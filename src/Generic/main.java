@@ -10,11 +10,11 @@ public class main {
 
         NullableInteger ni=new NullableInteger(a);
         ni.run();
-
+        System.out.println("******");
         NullablegenericInteger<Integer> volkan=new NullablegenericInteger<>(null);
         volkan.run();
 
-        System.out.println("******");
+
 
 
 
