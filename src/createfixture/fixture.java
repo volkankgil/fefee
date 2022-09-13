@@ -83,5 +83,13 @@ public class fixture {
             }
             System.out.println();
         }
+
+       /* int []arr1={1,2,3,4};
+        int []arr2={10,20,30,40};
+
+        arr1=arr2;
+
+        arr2[0]=100;
+        System.out.println(arr1[0]);*/
     }
 }
