@@ -9,6 +9,10 @@ public class Homework implements Runnable{
     private int firstNumber=1;
     private final Object LOCK=new Object();
 
+    public Homework(){
+
+    }
+
     ArrayList<Integer>dividedlist1=new ArrayList<>();
     ArrayList<Integer>dividedlist2=new ArrayList<>();
     ArrayList<Integer>dividedlist3=new ArrayList<>();
@@ -18,16 +22,12 @@ public class Homework implements Runnable{
         return teksayýlar;
     }
 
-    public void setTeksayýlar(ArrayList<Integer> teksayýlar) {
-        this.teksayýlar = teksayýlar;
+    public ArrayList<Integer>getçiftsayýlar(){
+        return çiftsayýlarý;
     }
 
     ArrayList<Integer>teksayýlar=new ArrayList<>();
     ArrayList<Integer>çiftsayýlarý=new ArrayList<>();
-
-    public Homework(){
-
-    }
 
     @Override
     public void run() {
@@ -48,6 +48,7 @@ public class Homework implements Runnable{
                 dividedlist4.add(firstNumber);
                 System.out.println(this.firstNumber + " " + "added to dividedList4");
             }
+
             if(firstNumber%2==0){
                 çiftsayýlarý.add(firstNumber);
                 System.out.println(this.firstNumber + " " + "added to Even Number List");

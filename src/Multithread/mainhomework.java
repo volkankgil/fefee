@@ -10,23 +10,23 @@ public class mainhomework {
 
         Homework h1=new Homework();
 
-        Thread t1=new Thread(h1);
-        t1.start();
+        //Thread t1=new Thread(h1);
+        //t1.start();
 
-        System.out.println("-------------");
-
-        ExecutorService exe= Executors.newFixedThreadPool(5);
+        ExecutorService exe= Executors.newFixedThreadPool(4);
 
         for(int i=1;i<=10000;i++){
             exe.execute(h1);
         }
-        exe.shutdown();  //iþ parçaçýðýnýn durmasý için yazýyoruz.
+        //exe.shutdown();  //iþ parçaçýðýnýn durmasý için yazýyoruz.
         try {
-            exe.awaitTermination(1,TimeUnit.SECONDS);// BU METODDAN SONRA PROGRAMIN NE KADAR ÇALIÞACAÐINI BELÝRLEYEBÝLÝYORUZ.
+            exe.awaitTermination(1,TimeUnit.MILLISECONDS);// BU METODDAN SONRA PROGRAMIN NE KADAR ÇALIÞACAÐINI BELÝRLEYEBÝLÝYORUZ.
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         System.out.println("Even Numbers : " +h1.getTeksayýlar().size());
+
+        System.out.println("Odd Numbers : " +h1.getçiftsayýlar().size());
 
     }
 }

@@ -1,6 +1,6 @@
 package Multithread;
 
-public class threadstop implements Runnable{
+public class threadstop implements Runnable{ // javada bir kere kalýtým alýnabildiði için thread sýnýfýný extend edemediðimiz durumlarda runnable sýnýfýný implemente ediyoruz.
     private String name;
     private int id;
 
@@ -13,16 +13,23 @@ public class threadstop implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(this.name + "Çalýþtý.");
+        System.out.println(this.name + " Çalýþtý.");
         System.out.println("-------------");
-        for (int i=0;i<=100;i++){
+
+        int a=0;
+
+        while (isrun){
             try {
-                Thread.sleep(800L*id);
+                Thread.sleep(1000L*id);
             }catch (Exception e){
                 e.getMessage();
             }
-            System.out.println(this.name + ":" + i );
+            System.out.println(this.name + ":" + a++ );
         }
+    }
+
+    public void threadstop(){
+        isrun=false;
     }
 
     public String getName() {
