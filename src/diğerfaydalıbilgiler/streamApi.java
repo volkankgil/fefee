@@ -59,5 +59,9 @@ public class streamApi {
         System.out.println("------");
 
         list.stream().map(integer -> Math.sqrt(integer)).forEach(aDouble -> System.out.println(aDouble));
+
+        System.out.println("--------");
+
+        list.stream().filter(a->a>100).forEach(i-> System.out.println(i));
     }
 }

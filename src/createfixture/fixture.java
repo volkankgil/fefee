@@ -5,11 +5,11 @@ import java.util.*;
 public class fixture {
 
     public static void main(String[] args) {
-        System.out.println("TAKIM SAYISI GÝRÝNÝZ:");
-        int takýmsayýsý;
 
         Scanner input = new Scanner(System.in);
-        takýmsayýsý = input.nextInt();
+
+        System.out.println("TAKIM SAYISI GÝRÝNÝZ:");
+        int takýmsayýsý= input.nextInt();;
 
         List<String> takýmlarýlistele = new ArrayList<>();
 

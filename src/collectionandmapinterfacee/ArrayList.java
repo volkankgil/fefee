@@ -21,13 +21,15 @@ public class ArrayList {
         liste.set(1,null);
 
         liste.add(0,33);
-        liste.remove(1);
+        liste.remove(6);
 
         Iterator <Integer> itr=liste.iterator();
 
             while(itr.hasNext()){
                 System.out.println(itr.next());
         }
+
+        System.out.println("--------");
 
         System.out.println(liste.size());
         System.out.println(liste.get(2));
@@ -36,17 +38,21 @@ public class ArrayList {
         }catch (IndexOutOfBoundsException e) {
         }
 
+       /* for(Integer a:liste){      // for döngüsü ilede elemanlarý yazdýrabiliriz.
+            System.out.println(a);
+        }*/
+
         System.out.println("---------");
 
         System.out.println(liste.lastIndexOf(2));
-        System.out.println(liste.indexOf(2));
+        System.out.println(liste.indexOf(2)); // ilk 2 verisi olan index sayýsýný verir.
 
         /*for (Integer element:liste) {
             System.out.println(element);
 
         }*/
 
-        List <String> list2=new java.util.ArrayList<>();
+        List<String> list2=new java.util.ArrayList<>();
 
         List<String> list3=new java.util.ArrayList<>();
 
@@ -58,11 +64,11 @@ public class ArrayList {
 
         list2.addAll(list3);
 
-        list2.addAll(0,list2);
+        list2.addAll(0,list2); //hangi index'i verir isek oradan baþlýyor.
 
         System.out.println(list2);
 
-        List<String > yeniliste=list2.subList(0,2);
+        List<String > yeniliste=list2.subList(0,3); //ilk index'i dahil ediyor. son index'i almýyor.
 
         System.out.println(yeniliste);
     }

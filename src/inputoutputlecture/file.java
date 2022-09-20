@@ -16,7 +16,5 @@ public class file {
 
         FileOutputStream input =new FileOutputStream("aseralizationiçingerekli",true); // yanýna true deðeri vermezisek içindekileri siliyor.
 
-
-
     }
 }

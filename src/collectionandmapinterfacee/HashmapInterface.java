@@ -27,11 +27,19 @@ public class HashmapInterface {
 
         for (Integer i:mapp.values()) {     // key 'e göre gezmek istersek values metodu yerine keyset 'i çaðýracaðýz.
             System.out.print(i + " ");
-        };
+        }
+
+        System.out.println();
+
+        for(String j:mapp.keySet()){
+            System.out.print(j + " ");
+        }
+
+        System.out.println();
 
         System.out.println(mapp.get("t")); //anahtarýna göre deðeri getiriyor.
 
-        mapp.clear();
+        mapp.clear(); // bütün map'i siliyor.
 
         System.out.println(mapp);
 

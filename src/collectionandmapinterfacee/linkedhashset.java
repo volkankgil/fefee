@@ -20,6 +20,5 @@ public class linkedhashset {
                 System.out.println(itr.next());//ayný olan deðerleri ekrana bastýrmýyor.
             }
         System.out.println(lset.size());
-        System.out.println(lset.size());
     }
 }

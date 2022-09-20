@@ -21,7 +21,7 @@ public class tipdönüþümleri {
 
         int e=15;
         String str=String.valueOf(e);
-        System.out.println(str);   //Int string 'e dönüþüm yapmýuþ olduk.
+        System.out.println(str);   //Int string 'e dönüþüm yapmýþ olduk.
 
         System.out.println("*************" );
 
