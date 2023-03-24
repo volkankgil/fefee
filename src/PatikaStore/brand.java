@@ -1,5 +1,6 @@
 package PatikaStore;
 
+import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -28,7 +29,12 @@ public class brand {
         markalistele.add(new brand("HP", 8));
         markalistele.add(new brand("Monster", 9));
     }
-
+    public void showBrandss() {
+        Iterator<brand>listele=markalistele.iterator();
+            while (listele.hasNext()){
+                System.out.println(listele.next().getMarka›smi());
+            }
+    }
     public void showBrands() {
         System.out.println("MARKALARIMIZ");
         System.out.println("---------");
