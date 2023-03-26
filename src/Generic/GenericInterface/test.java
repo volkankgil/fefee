@@ -52,7 +52,11 @@ public class test <t1,t2,t3> { //3 tane genericmethod sınıf alabileceğini belirt
         test<Integer,String,Double> t=new test<>(e,f,g);  // 3 adet genericmethod sınıf var ise constructorda 3 adet tanımlamak zorundayız.
         t.showinfo();
         System.out.println("*********");
+
         student<String> stu=new student<>();
         stu.insert("abc");
+
+        student<Integer> stu2=new student<>();
+        stu2.insert(20);
     }
 }

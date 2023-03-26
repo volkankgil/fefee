@@ -23,7 +23,7 @@ public class HashmapInterface {
 
         System.out.println(mapp);
 
-        mapp.replace("aseralizationiçingerekli",50);//deðerini deðiþtirdi.
+        mapp.replace("aseralizationiçingerekli",50);//key ayný kaldý, value deðerini deðiþtirdi.
 
         for (Integer i:mapp.values()) {     // key 'e göre gezmek istersek values metodu yerine keyset 'i çaðýracaðýz.
             System.out.print(i + " ");

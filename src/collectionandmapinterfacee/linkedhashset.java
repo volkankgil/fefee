@@ -12,12 +12,13 @@ public class linkedhashset {
         lset.add(10);
         lset.add(20);
         lset.add(10);
+        lset.add(50);
         lset.add(40);
 
         Iterator itr = lset.iterator();
 
             while (itr.hasNext()) {
-                System.out.println(itr.next());//aynı olan değerleri ekrana bastırmıyor.
+                System.out.println(itr.next());//aynı olan değerleri ekrana bastırmıyor. sıralama değşmez.
             }
         System.out.println(lset.size());
     }

@@ -19,8 +19,8 @@ public class bufferReader {
             }*/
 
             while (line != null) {
-                System.out.println(line);
-                line = b1.readLine();
+                System.out.println(line + "****");
+                line = b1.readLine();  //satýr satýr sýra ile okuduðu için line=b1.readlin(); yapýyoruz.
             }
         } catch (Exception e) {
             e.printStackTrace();

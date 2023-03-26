@@ -3,7 +3,7 @@ package collectionandmapinterfacee;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class collectionandmapinterface {
+public class Hashset {
     public static void main(String[] args) {
 
         HashSet<Integer> hash=new HashSet<>(); // genericmethod olarak hash adý altýnda nesne ürettik.
@@ -22,7 +22,7 @@ public class collectionandmapinterface {
 
         System.out.println("*************");
 
-        for (Integer a:hash) {
+        for (Integer a:hash) {          //ayný tekrarlayan deðerleri vermiyor. ekrana bastýrmýyor.
             System.out.println(a);
         }
 

@@ -19,11 +19,11 @@ public class streamApi {
         list.add(50);
         list.add(105);
 
-        list.stream().forEach(integer -> System.out.println(integer));
+        list.stream().forEach(printList -> System.out.println(printList));
 
         System.out.println("-------");
 
-        list.stream().filter(number -> number < 60).forEach(integer -> System.out.println(integer)); // filtre koymamýza yarýyor.
+        list.stream().filter(number -> number < 60).forEach(printList -> System.out.println(printList)); // filtre koymamýza yarýyor.
 
         System.out.println("-------");
 

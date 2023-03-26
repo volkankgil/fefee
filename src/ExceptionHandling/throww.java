@@ -1,5 +1,3 @@
-
-
 package ExceptionHandling;
 
 import java.util.*;
@@ -18,13 +16,11 @@ public class throww {
         System.out.println("Bir Sayý Giriniz.");
         int age=input.nextInt();
 
-
         try {
             check(age);
         }
         catch (Exception e){
             System.out.println("Yaþý Uymadý.");
-            System.out.println(e.toString());//java.lang.Exception: Yaþýnýz tutmuyor. ekrana bastýrýyor
             System.out.println(e.getMessage());//Yaþýnýz tutmuyor. ekrana bastýrýyor
         }
     }

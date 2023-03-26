@@ -35,11 +35,9 @@ public class QueueLinkedlist {
                 return o1.compareTo(o2);
             }
         });
-
-
         ınt.add(30);
         ınt.add(20);
-        ınt.add(30);
+        ınt.add(40);
 
         Iterator<Integer>itr=ınt.iterator();
 

@@ -2,7 +2,7 @@ package inputoutputlecture;
 
 import java.io.Serializable;  //serialization ý import etmek zorundayýz.
 
-public class carserialization implements Serializable{
+public class carserialization implements Serializable{  //seriazible implemente ediyoruz.
 
     private String brand;
     private String model;

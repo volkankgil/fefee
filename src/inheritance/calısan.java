@@ -1,7 +1,6 @@
 package inheritance;
 
 public class calýsan {
-
     private String adSoyad;
     private String telefon;
     private String eposta;

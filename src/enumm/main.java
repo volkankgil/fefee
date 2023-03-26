@@ -14,6 +14,7 @@ public class main {
 
         day.CARSAMBA.takeday();
         day.PERSEMBE.takeday(); // SWTÝVH TE CASE 4 ü tanýmlamadýðýmýzdan null döndü.
+        day.PAZARTESÝ.takeday();
 
     }
 }

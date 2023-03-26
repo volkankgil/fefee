@@ -21,11 +21,9 @@ public class book {
         this.bookAuthor = bookAuthor;
         this.bookPublishmentdate = bookPublishmentdate;
     }
-
     public book() {
 
     }
-
     public String getBookName() {
         return this.bookName;
     }

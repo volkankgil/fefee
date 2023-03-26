@@ -6,8 +6,6 @@ public class book {
 
     private String bookname;
     private int pagenumber;
-
-
     private String writerName;
     private int publishmentDate;
 

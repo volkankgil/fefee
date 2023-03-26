@@ -2,7 +2,6 @@ package collectionandmapinterfacee;
 
 import java.util.Iterator;
 import java.util.List;
-import java.util.SplittableRandom;
 
 public class ArrayList {
     public static void main(String[] args) {
@@ -54,15 +53,15 @@ public class ArrayList {
 
         List<String> list2=new java.util.ArrayList<>();
 
-        List<String> list3=new java.util.ArrayList<>();
-
-        list3.add("eskişehir");
-
         list2.add("İzmir");
         list2.add("antalya");
         list2.add("ayddın");
 
-        list2.addAll(list3);
+        List<String> list3=new java.util.ArrayList<>();
+
+        list3.add("eskişehir");
+
+        list2.addAll(list3); //eklemeyi listenin en sonuna yapıyor.
 
         list2.addAll(0,list2); //hangi index'i verir isek oradan başlıyor.
 

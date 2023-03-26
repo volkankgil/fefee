@@ -14,6 +14,7 @@ public class mainmatematik {
         };
 
         System.out.println(toplama.transaction(10,2));
+        System.out.println(çýkarma.transaction(20,4));
         System.out.println(bölme.transaction(10,0));
 
        /* matematik toplama=new matematik() {

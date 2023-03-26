@@ -25,7 +25,7 @@ public class store {
                     new telefon().menu();
                     break;
                 case 3:
-                    new brand().showBrands();
+                    new brand().showBrandss();
                     break;
                 case 0:
                     System.out.println("Sistemden çýkýþ yaptýnýz.");

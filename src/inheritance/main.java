@@ -45,6 +45,9 @@ public class main {
         //int [] loginUser=new int[4]; Burda array'in  diðer tanýmlanma metodunu tekrar ettim.
         calýsan [] loginUser={a2,b1,l1,o1};
         calýsan.girisYapanlar(loginUser);
+        for(calýsan print:loginUser){
+            System.out.println(print.getAdSoyad());
+        };
 
         System.out.println("**************");
         c1.setEposta();
