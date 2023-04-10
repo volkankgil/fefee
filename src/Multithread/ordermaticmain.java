@@ -16,7 +16,7 @@ public class ordermaticmain {
             Thread t1 = new Thread(o1);
             iþlemler.add(t1);
             t1.start();
-            //t1.join(); Bu metodda 2 thread ayný anda baþlýyor. ama 2 bankada bekleyen ayný sýra numaralarýný alabiliyor. buz yüzden sychronaziton metodunu kullanýyoruzç.
+            //t1.join(); //Bu metodda 2 thread ayný anda baþlýyor. ama 2 bankada bekleyen ayný sýra numaralarýný alabiliyor. buz yüzden sychronaziton metodunu kullanýyoruzç.
         }
 
         for(Thread a:iþlemler){

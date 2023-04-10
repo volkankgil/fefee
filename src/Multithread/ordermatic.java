@@ -13,7 +13,7 @@ public class ordermatic implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(2000); // program 2 iþlem arasýnda çalýþmak için bu kadar bekliyor.
+            Thread.sleep(500); // program 2 iþlem arasýnda çalýþmak için bu kadar bekliyor.
         } catch (Exception e) {
             e.getMessage();
         }
